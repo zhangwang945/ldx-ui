@@ -12,7 +12,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint ./",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "release-it"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -30,6 +31,7 @@
     "eslint-plugin-vue": "^8.0.3",
     "husky": "^8.0.0",
     "prettier": "^2.4.1",
+    "release-it": "^17.0.0",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "vue": "^2.7.15",
