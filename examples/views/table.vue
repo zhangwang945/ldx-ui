@@ -5,8 +5,6 @@
     :pageSize.sync="pageSize"
     :total="total"
     :currentPage.sync="currentPage"
-    height="800"
-    @getData="getList"
   >
     <template v-slot:append>
       <div>table作用域插槽</div>

@@ -17,7 +17,7 @@
         :key="index"
       />
     </el-table>
-    <div style="overflow: hidden" ref="paginationWrapper">
+    <div style="overflow: hidden" ref="paginationWrapper" v-show="currentPage">
       <el-pagination
         style="margin-top: 20px"
         background

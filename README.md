@@ -55,7 +55,7 @@ vue.use(ldxUi)
 * data：dataItem[] 表格数据(同el-table的data)
 * pageSize：number 分页大小
 * total: number 总数量
-* currentPage：number 当前页
+* currentPage：number 当前页(该参数为0或者未传递则隐藏分页)
 * height：number 组件高度
 * 其他同el-table的属性
 
