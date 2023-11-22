@@ -9,7 +9,6 @@ Vue.config.productionTip = false;
 
 Vue.use(ElementUI);
 Vue.use(ldxUi);
-
 new Vue({
   router,
   render: (h) => h(App),
