@@ -8,11 +8,15 @@ export default {
   },
   computed: {
     _components() {
-      const component = this.component;
+      const component = this.component,
+        compType = Object.prototype.toString.call(component);
+
       if (!component) {
         return;
-      } else if (Array.isArray(component)) {
+      } else if (compType === "[object Array]") {
         return component.length ? component : undefined;
+      } else if (compType === "[object String]") {
+        return [{ name: component }];
       } else {
         return [component];
       }

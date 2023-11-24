@@ -47,6 +47,7 @@ export default {
         {
           prop: "address",
           label: "地址",
+          component: "el-input",
         },
         {
           prop: "status",
